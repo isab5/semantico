@@ -12,13 +12,19 @@ body {
 }
 
 .site-header {
-    background-color: #333;
-    color: #fff;
+    background-color: #f7bdf2;
+    color: #110f0f;
     padding: 1rem 0;
     text-align: center;
 }
 
-site-title {
+.site-title {
     margin-bottom: 10px;
     font-size: 2rem;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
